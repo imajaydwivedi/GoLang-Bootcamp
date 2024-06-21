@@ -8,6 +8,10 @@ func divide(dividend, divisor int) (int, error) {
 }
 
 func getInsuranceAmount(status insuranceStatus) int {
+
+
+
+	
 	amount := 0
 	if !status.hasInsurance() {
 		amount = 1
