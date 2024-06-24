@@ -1,4 +1,17 @@
-import "errors"
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Main called.")
+
+	rs, _ := divide(10, 2)
+	fmt.Printf("%v", rs)
+
+}
 
 func divide(dividend, divisor int) (int, error) {
 	if divisor == 0 {
@@ -9,9 +22,6 @@ func divide(dividend, divisor int) (int, error) {
 
 func getInsuranceAmount(status insuranceStatus) int {
 
-
-
-	
 	amount := 0
 	if !status.hasInsurance() {
 		amount = 1
