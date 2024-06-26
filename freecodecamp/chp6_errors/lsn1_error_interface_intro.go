@@ -28,5 +28,6 @@ func sendSMSToCouple(msgToCustomer, msgToSpouse string) (int, error) {
 }
 
 func main() {
+	fmt.Println(sendSMSToCouple("Reminder for Anniversary!", "Happy Anniversary Wife! \nI don't know what else to say.\nWas thinking if you are interested for a family outing?"))
 	fmt.Println(sendSMSToCouple("Reminder for Anniversary!", "Happy Anniversary Wife!"))
 }
