@@ -23,7 +23,7 @@ func main() {
 	}
 	fmt.Println("plant has grown to ", plantHeight, "inches")
 
-	fmt.Println("******************************************")
+	fmt.Println("\n******************************************\n")
 
 	var costMultiplier float64 = 1.1
 	var maxCostInPennies int = 5
